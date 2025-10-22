@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <a href="/">Home</a>
             <a href="/about">About</a>
             <a href="/contact">Contact</a>
+            <a href="/blog">Blog</a>
         </div>
         <span id="hamburger" class="hamburger" onclick="showHamburger(event)"></span>
         `;

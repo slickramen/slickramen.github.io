@@ -1,0 +1,23 @@
+[
+    {
+        "num": "1",
+        "link": "https://leetcode.com/problems/two-sum/",
+        "name": "Two Sum",
+        "date": "22/10/2025",
+        "difficulty": "Easy"
+    },
+    {
+        "num": "22",
+        "link": "https://leetcode.com/problems/generate-parentheses/",
+        "name": "Generate Parentheses",
+        "date": "21/10/2025",
+        "difficulty": "Medium"
+    },
+    {
+        "num": "23",
+        "link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "name": "Merge k Sorted Lists",
+        "date": "20/10/2025",
+        "difficulty": "Hard"
+    }
+]
