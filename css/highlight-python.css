@@ -1,0 +1,14 @@
+code {
+  font-family: monospace;
+  white-space: pre;
+}
+
+.string { color: #ce9178; }
+.comment { color: #6a9955; }
+.keyword { color: #569cd6; }
+.number { color: #b5cea8; }
+.builtin { color: #4ec9b0; }
+.decorator { color: #c586c0; }
+.function-name { color: #dcdcaa; }
+.class-name { color: #4ec9b0; }
+.operator { color: #d4d4d4; }

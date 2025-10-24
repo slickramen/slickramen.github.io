@@ -1,24 +1,47 @@
+/* Generating a leetcode page */
+
+import { highlightSyntax } from "./highlight-code.js";
+
 function generateLeetcode(date) {
     const leetcodes = fetch('/js/leetcodes.json')
       .then(response => response.json())
       .then(data => {
             const leetcodeData = data;
 
-            lc = leetcodeData.find(attempt => attempt.date === date);
+            const lc = leetcodeData.find(attempt => attempt.date === date);
             const holder = document.getElementById("content-holder");
             const container = document.createElement("div");
             container.classList = "col";
 
-            const content = "test";
+            const difficulty = lc.difficulty.toLowerCase();
 
             container.innerHTML = `
-            <a class="page-title" href=${lc.link}>${lc.num}. ${lc.name}</a>
-            <span class="page-subtitle">${lc.date}</span>
+<a class="page-title" href=${lc.link}>${lc.num}. ${lc.name}</a>
+<div class="page-subtitle-row"><span class="${difficulty} difficulty-chip">${lc.difficulty}</span><span class="page-subtitle">${lc.date}</span></div>
 
-            ${content}`;
+<span class="page-header" id="preamble">Preamble</span>
+${lc.preamble}
+
+
+<span class="page-header" id="code">Solution</span>
+<div class="code-container">
+<div class="language-container">
+<span class="code-solution-language" style="width: fit-content">Python 3</span>
+</div>
+<pre class="code"><code class="code python">${lc.solution}</code></pre>
+</div>
+            `;
 
             holder.appendChild(container);
+            highlightSyntax();
       })
       .catch(error => console.error('Error fetching JSON:', error));
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+      const leetcodeIndex = document.querySelector("#leetcodeIndex");
+
+      if (leetcodeIndex) {
+            generateLeetcode(leetcodeIndex.textContent);
+      }
+});

@@ -11,7 +11,8 @@ function populateLeetcodes(data) {
     data.forEach((lc) => {
         const div = document.createElement("tr");
 
-        div.className = `leetcode-attempt ${lc.difficulty.toLowerCase()}`;
+        const lowerDiff = lc.difficulty.toLowerCase();
+        div.className = `leetcode-attempt ${lowerDiff}`;
 
         const leetcodeDate = lc.date.replaceAll("/", "-");
 
@@ -19,7 +20,7 @@ function populateLeetcodes(data) {
             <td class="problem-number">${lc.num}.</td>
             <td><a href="/leetcodes/leetcode-${leetcodeDate}">${lc.name}</a></td>
             <td>${lc.date}</td>
-            <td><span class="difficulty-chip">${lc.difficulty}</span></td>
+            <td><span class="${lowerDiff} difficulty-chip">${lc.difficulty}</span></td>
         `
 
         container.appendChild(div);
