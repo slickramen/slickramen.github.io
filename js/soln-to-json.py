@@ -2,15 +2,16 @@ import json
 
 
 solution = """class Solution:
-    def nextBeautifulNumber(self, n: int) -> int:
-        start_n = n + 1
-        str_n = str(start_n)
+    def hasSameDigits(self, s: str) -> bool:
+        while len(s) > 2:
+            ns = ""
+            for i in range(len(s)-1):
+                d = (int(s[i]) + int(s[i+1])) % 10
+                ns += str(d)
+            
+            s = ns
 
-        while not all((str_n.count(c) == int(c) for c in str_n)):
-            start_n += 1
-            str_n = str(start_n)
-
-        return start_n"""
+        return s[0] == s[1]"""
 
 def convertStringToJsonString(s):
     conv = ""

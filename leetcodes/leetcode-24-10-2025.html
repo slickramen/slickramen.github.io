@@ -22,22 +22,23 @@
     <script src="/js/generate-navbar.js" defer></script>
     
     <div class="page-content" id="content-holder"></div>
-    <div class="hidden" id="leetcodeIndex">25/10/2025</div>
+    <div class="hidden" id="leetcodeIndex">24/10/2025</div>
 
     <div class="hidden" id="leetcodePreamble">
         Hello, world!
     </div>
 
     <div class="hidden" id="leetcodeSolution">class Solution:
-    def nextBeautifulNumber(self, n: int) -> int:
-        start_n = n + 1
-        str_n = str(start_n)
+    def hasSameDigits(self, s: str) -> bool:
+        while len(s) > 2:
+            ns = ""
+            for i in range(len(s)-1):
+                d = (int(s[i]) + int(s[i+1])) % 10
+                ns += str(d)
+            
+            s = ns
 
-        while not all((str_n.count(c) == int(c) for c in str_n)):
-            start_n += 1
-            str_n = str(start_n)
-
-        return start_n</div>
+        return s[0] == s[1]</div>
 
     <footer id="footer"></footer>
 </body>

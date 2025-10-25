@@ -2,7 +2,7 @@
 
 import { highlightSyntax } from "./highlight-code.js";
 
-function generateLeetcode(date) {
+function generateLeetcode(date, solution, preamble) {
     const leetcodes = fetch('/js/leetcodes.json')
       .then(response => response.json())
       .then(data => {
@@ -20,7 +20,7 @@ function generateLeetcode(date) {
 <div class="page-subtitle-row"><span class="${difficulty} difficulty-chip">${lc.difficulty}</span><span class="page-subtitle">${lc.date}</span></div>
 
 <span class="page-header" id="preamble">Preamble</span>
-${lc.preamble}
+${preamble.textContent}
 
 
 <span class="page-header" id="code">Solution</span>
@@ -28,7 +28,7 @@ ${lc.preamble}
 <div class="language-container">
 <span class="code-solution-language" style="width: fit-content">Python 3</span>
 </div>
-<pre class="code"><code class="code python">${lc.solution}</code></pre>
+<pre class="code"><code class="code python">${solution.textContent}</code></pre>
 </div>
             `;
 
@@ -40,8 +40,10 @@ ${lc.preamble}
 
 document.addEventListener("DOMContentLoaded", () => {
       const leetcodeIndex = document.querySelector("#leetcodeIndex");
+      const leetcodeSolution = document.querySelector("#leetcodeSolution");
+      const leetcodePreamble = document.querySelector("#leetcodePreamble");
 
-      if (leetcodeIndex) {
-            generateLeetcode(leetcodeIndex.textContent);
+      if (leetcodeIndex && leetcodeSolution && leetcodePreamble) {
+            generateLeetcode(leetcodeIndex.textContent, leetcodeSolution, leetcodePreamble);
       }
 });
