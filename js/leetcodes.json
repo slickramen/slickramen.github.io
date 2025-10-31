@@ -1,23 +1,72 @@
 [
     {
+        "num": "3289",
+        "link": "https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/",
+        "name": "The Two Sneaky Numbers of Digitville",
+        "date": "31/10/2025",
+        "difficulty": "Easy"
+    },
+    {
+        "num": "1526",
+        "link": "https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/",
+        "name": "Minimum Number of Increments on Subarrays to Form a Target Array",
+        "date": "30/10/2025",
+        "difficulty": "Hard"
+    },
+    {
+        "num": "3370",
+        "link": "https://leetcode.com/problems/smallest-number-with-all-set-bits/",
+        "name": "Smallest Number With All Set Bits",
+        "date": "29/10/2025",
+        "difficulty": "Easy"
+    },
+    {
+        "num": "3345",
+        "link": "https://leetcode.com/problems/make-array-elements-equal-to-zero/",
+        "name": "Make Array Elements Equal to Zero",
+        "date": "28/10/2025",
+        "difficulty": "Easy"
+    },
+    {
+        "num": "2125",
+        "link": "https://leetcode.com/problems/number-of-laser-beams-in-a-bank/",
+        "name": "Number of Laser Beams in a Bank",
+        "date": "27/10/2025",
+        "difficulty": "Medium"
+    },
+    {
+        "num": "2043",
+        "link": "https://leetcode.com/problems/simple-bank-system/",
+        "name": "Simple Bank System",
+        "date": "26/10/2025",
+        "difficulty": "Medium"
+    },
+    {
         "num": "1716",
         "link": "https://leetcode.com/problems/calculate-money-in-leetcode-bank/",
         "name": "Calculate Money in Leetcode Bank",
-        "date": "26/10/2025",
+        "date": "25/10/2025",
         "difficulty": "Easy"
     },
     {
         "num": "2048",
         "link": "https://leetcode.com/problems/next-greater-numerically-balanced-number/",
         "name": "Next Greater Numerically Balanced Number",
-        "date": "25/10/2025",
+        "date": "24/10/2025",
         "difficulty": "Medium"
     },
     {
         "num": "3461",
         "link": "https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/",
         "name": "Check If Digits Are Equal in String After Operations I",
-        "date": "24/10/2025",
+        "date": "23/10/2025",
+        "difficulty": "Easy"
+    },
+    {
+        "num": "1518",
+        "link": "https://leetcode.com/problems/water-bottles/",
+        "name": "Water Bottles",
+        "date": "01/10/2025",
         "difficulty": "Easy"
     }
 ]

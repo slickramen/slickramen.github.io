@@ -29,15 +29,17 @@
     </div>
 
     <div class="hidden" id="leetcodeSolution">class Solution:
-    def nextBeautifulNumber(self, n: int) -> int:
-        start_n = n + 1
-        str_n = str(start_n)
+    def totalMoney(self, n: int) -> int:
+        money = 1
+        v = 1
+        for i in range(1, n):
+            if i % 7 == 0:
+                v -= 5
+            else:
+                v += 1
+            money += v
 
-        while not all((str_n.count(c) == int(c) for c in str_n)):
-            start_n += 1
-            str_n = str(start_n)
-
-        return start_n</div>
+        return money</div>
 
     <footer id="footer"></footer>
 </body>

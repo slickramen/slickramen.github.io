@@ -3,12 +3,39 @@ code {
   white-space: pre;
 }
 
-.string { color: #ce9178; }
-.comment { color: #6a9955; }
-.keyword { color: #569cd6; }
-.number { color: #b5cea8; }
-.builtin { color: #4ec9b0; }
-.decorator { color: #c586c0; }
-.function-name { color: #dcdcaa; }
-.class-name { color: #4ec9b0; }
-.operator { color: #d4d4d4; }
+
+:root {
+    --string-color: #a31515;
+    --comment-color: #008000;
+    --keyword-color: #0000ff;
+    --number-color: #098658;
+    --builtin-color: #267f99;
+    --decorator-color: #795e26;
+    --function-color: #795e26;
+    --class-color: #267f99;
+    --operator-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --string-color: #ce9178;
+      --comment-color: #6a9955;
+      --keyword-color: #569cd6;
+      --number-color: #b5cea8;
+      --builtin-color: #4ec9b0;
+      --decorator-color: #c586c0;
+      --function-color: #dcdcaa;
+      --class-color: #4ec9b0;
+      --operator-color: #d4d4d4;
+    }
+}
+
+.string { color: var(--string-color); }
+.comment { color: var(--comment-color); }
+.keyword { color: var(--keyword-color); }
+.number { color: var(--number-color); }
+.builtin { color: var(--builtin-color); }
+.decorator { color: var(--decorator-color); }
+.function-name, .called-function { color: var(--function-color); }
+.class-name { color: var(--class-color); }
+.operator { color: var(--operator-color); }

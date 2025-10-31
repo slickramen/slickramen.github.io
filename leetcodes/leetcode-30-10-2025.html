@@ -22,22 +22,24 @@
     <script src="/js/generate-navbar.js" defer></script>
     
     <div class="page-content" id="content-holder"></div>
-    <div class="hidden" id="leetcodeIndex">24/10/2025</div>
+    <div class="hidden" id="leetcodeIndex">30/10/2025</div>
 
     <div class="hidden" id="leetcodePreamble">
         Hello, world!
     </div>
 
     <div class="hidden" id="leetcodeSolution">class Solution:
-    def nextBeautifulNumber(self, n: int) -> int:
-        start_n = n + 1
-        str_n = str(start_n)
+    def minNumberOperations(self, target: List[int]) -> int:
+        res = 0
+        prev = 0
 
-        while not all((str_n.count(c) == int(c) for c in str_n)):
-            start_n += 1
-            str_n = str(start_n)
+        for val in target:
+            if val > prev:
+                res += val - prev
 
-        return start_n</div>
+            prev = val
+
+        return res</div>
 
     <footer id="footer"></footer>
 </body>
