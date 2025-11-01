@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leetcode | martyn</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/leetcode.css">
+    <link rel="stylesheet" href="/css/project-page.css">
+    <link rel="stylesheet" href="/css/highlight-python.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <script type="module" src="/js/highlight-code.js"></script>
+    <script type="module" src="/js/generate-leetcode-page.js"></script>
+    <script src="/js/hamburger.js"></script>
+</head>
+
+<body>
+    <header id="navbar"></header> 
+    <script src="/js/generate-navbar.js" defer></script>
+    
+    <div class="page-content" id="content-holder"></div>
+    <div class="hidden" id="leetcodeIndex">01/11/2025</div>
+
+    <div class="hidden" id="leetcodePreamble">
+        Hello, world!
+    </div>
+
+    <div class="hidden" id="leetcodeSolution"># Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
+        start = head
+        prev = head
+        num_set = set(nums)
+
+        while start is not None:
+            if start.val in num_set:
+                if start == head:
+                    head = start.next
+                else:
+                    prev.next = start.next
+            else:
+                prev = start
+
+            start = start.next
+
+        return head</div>
+
+    <footer id="footer"></footer>
+</body>
+
+</html>

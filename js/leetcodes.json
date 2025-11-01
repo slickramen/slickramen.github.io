@@ -1,5 +1,12 @@
 [
     {
+        "num": "3217",
+        "link": "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/",
+        "name": "Delete Nodes From Linked List Present in Array",
+        "date": "01/11/2025",
+        "difficulty": "Medium"
+    },
+    {
         "num": "3289",
         "link": "https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/",
         "name": "The Two Sneaky Numbers of Digitville",

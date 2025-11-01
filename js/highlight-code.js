@@ -2,9 +2,9 @@ export function highlightSyntax() {
     const codeBlocks = document.querySelectorAll("code");
 
     const patterns = [
+        { type: "comment", regex: /#.*/g },
         { type: "function", regex: /\bdef\s+([a-zA-Z_]\w*)/g },
         { type: "class", regex: /\bclass\s+([A-Z][a-zA-Z0-9_]*)/g },
-        { type: "comment", regex: /#.*/g },
         { type: "string", regex: /(['"]{3}[\s\S]*?['"]{3}|(['"])(?:(?!\2)[^\\]|\\.)*\2)/g },
         { type: "number", regex: /\b\d+(\.\d+)?\b/g },
         { type: "keyword", regex: /\b(False|None|True|and|as|assert|async|await|break|class|continue|def|del|elif|else|except|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield|self)\b/g },
