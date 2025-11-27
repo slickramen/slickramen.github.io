@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leetcode | martyn</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/leetcode.css">
+    <link rel="stylesheet" href="/css/project-page.css">
+    <link rel="stylesheet" href="/css/highlight-python.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <script type="module" src="/js/highlight-code.js"></script>
+    <script type="module" src="/js/generate-leetcode-page.js"></script>
+    <script src="/js/hamburger.js"></script>
+</head>
+
+<body>
+    <header id="navbar"></header> 
+    <script src="/js/generate-navbar.js" defer></script>
+    
+    <div class="page-content" id="content-holder"></div>
+    <div class="hidden" id="leetcodeIndex">10/11/2025</div>
+
+    <div class="hidden" id="leetcodePreamble">
+        Hola world
+    </div>
+
+    <div class="hidden" id="leetcodeSolution">class Solution:
+    def minOperations(self, nums: List[int]) -> int:
+        s = []
+        ops = 0
+
+        for n in nums:
+            while s and s[-1] > n:
+                s.pop()
+            
+            if n == 0:
+                continue
+            
+            if not s or s[-1] &lt; n:
+                ops += 1
+                s.append(n)
+
+        return ops</div>
+
+    <footer id="footer"></footer>
+</body>
+
+</html>

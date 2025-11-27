@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leetcode | martyn</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/leetcode.css">
+    <link rel="stylesheet" href="/css/project-page.css">
+    <link rel="stylesheet" href="/css/highlight-python.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <script type="module" src="/js/highlight-code.js"></script>
+    <script type="module" src="/js/generate-leetcode-page.js"></script>
+    <script src="/js/hamburger.js"></script>
+</head>
+
+<body>
+    <header id="navbar"></header> 
+    <script src="/js/generate-navbar.js" defer></script>
+    
+    <div class="page-content" id="content-holder"></div>
+    <div class="hidden" id="leetcodeIndex">04/11/2025</div>
+
+    <div class="hidden" id="leetcodePreamble">
+        Hola world
+    </div>
+
+    <div class="hidden" id="leetcodeSolution">class Solution:
+    def findXSum(self, nums: List[int], k: int, x: int) -> List[int]:
+        n = len(nums)
+        result = []
+
+        for i in range(n - k + 1):
+            window = nums[i:i + k]
+            freqs = Counter(window)
+            freqs_sorted = sorted(freqs.items(), key=lambda freq: (-freq[1], -freq[0]))
+            count_n = set(freq for freq, _ in freqs_sorted[:x])
+            sum_n = sum(val for val in window if val in count_n)
+            result.append(sum_n)
+
+        return result</div>
+
+    <footer id="footer"></footer>
+</body>
+
+</html>

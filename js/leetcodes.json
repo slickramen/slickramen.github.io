@@ -1,5 +1,61 @@
 [
     {
+        "num": "1437",
+        "link": "https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/",
+        "name": "Check If All 1's Are at Least Length K Places Away",
+        "date": "17/11/2025",
+        "difficulty": "Medium"
+    },
+    {
+        "num": "1513",
+        "link": "https://leetcode.com/problems/number-of-substrings-with-only-1s/",
+        "name": "Number of Substrings With Only 1s",
+        "date": "16/11/2025",
+        "difficulty": "Medium"
+    },
+    {
+        "num": "3542",
+        "link": "https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/",
+        "name": "Minimum Operations to Convert All Elements to Zero",
+        "date": "10/11/2025",
+        "difficulty": "Medium"
+    },
+    {
+        "num": "2169",
+        "link": "https://leetcode.com/problems/count-operations-to-obtain-zero/",
+        "name": "Count Operations to Obtain Zero",
+        "date": "09/11/2025",
+        "difficulty": "Easy"
+    },
+    {
+        "num": "3607",
+        "link": "https://leetcode.com/problems/power-grid-maintenance/",
+        "name": "Power Grid Maintenance",
+        "date": "06/11/2025",
+        "difficulty": "Medium"
+    },
+    {
+        "num": "3318",
+        "link": "https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/",
+        "name": "Find X-Sum of All K-Long Subarrays I",
+        "date": "04/11/2025",
+        "difficulty": "Easy"
+    },
+    {
+        "num": "1578",
+        "link": "https://leetcode.com/problems/minimum-time-to-make-rope-colorful/",
+        "name": "Minimum Time to Make Rope Colorful",
+        "date": "03/11/2025",
+        "difficulty": "Medium"
+    },
+    {
+        "num": "2257",
+        "link": "https://leetcode.com/problems/count-unguarded-cells-in-the-grid/",
+        "name": "Count Unguarded Cells in the Grid",
+        "date": "02/11/2025",
+        "difficulty": "Medium"
+    },
+    {
         "num": "3217",
         "link": "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/",
         "name": "Delete Nodes From Linked List Present in Array",

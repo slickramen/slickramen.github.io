@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leetcode | martyn</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/leetcode.css">
+    <link rel="stylesheet" href="/css/project-page.css">
+    <link rel="stylesheet" href="/css/highlight-python.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <script type="module" src="/js/highlight-code.js"></script>
+    <script type="module" src="/js/generate-leetcode-page.js"></script>
+    <script src="/js/hamburger.js"></script>
+</head>
+
+<body>
+    <header id="navbar"></header> 
+    <script src="/js/generate-navbar.js" defer></script>
+    
+    <div class="page-content" id="content-holder"></div>
+    <div class="hidden" id="leetcodeIndex">06/11/2025</div>
+
+    <div class="hidden" id="leetcodePreamble">
+        TLE
+    </div>
+
+    <div class="hidden" id="leetcodeSolution">class Solution:
+    def dfs_recursive(self, graph, start, visited=None):
+        if visited is None:
+            visited = set()
+        
+        if start not in visited:
+            visited.add(start)
+            for neighbor in graph[start]:
+                if neighbor not in visited:
+                    self.dfs_recursive(graph, neighbor, visited)
+        
+        return visited
+
+    def processQueries(self, c: int, connections: List[List[int]], queries: List[List[int]]) -> List[int]:
+
+        result = []
+        stations = {}
+        online = [True for _ in range(c)]
+
+        adj_list = [[] for _ in range(c)]
+
+        for conn in connections:
+            adj_list[conn[0]-1].append(conn[1]-1)
+            adj_list[conn[1]-1].append(conn[0]-1)
+
+        for i in range(c):
+            stations[i] = sorted(self.dfs_recursive(adj_list, i))
+            
+
+        for q_type, station in queries:
+            if q_type == 1:
+                if online[station-1]:
+                    result.append(station)
+                else:
+                    if len(stations[station-1]) > 0:
+                        result.append(stations[station-1][0] + 1)
+                    else:
+                        result.append(-1)
+            elif q_type == 2:
+                online[station-1] = False
+                for target in stations.values():
+                    if (station-1) in target:
+                        target.remove((station-1))
+
+        return result</div>
+
+    <footer id="footer"></footer>
+</body>
+
+</html>
