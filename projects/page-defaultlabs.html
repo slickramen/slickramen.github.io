@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project | martyn</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/project-page.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <script src="/js/generate-project-page.js"></script>
+    <script src="/js/hamburger.js"></script>
+</head>
+
+<body>
+    <header id="navbar"></header> 
+    <script src="/js/generate-navbar.js" defer></script>
+    
+    <div class="page-content" id="content-holder"></div>
+
+    <footer id="footer"></footer>
+</body>
+
+<script>
+    generateProjectPageLayout(
+        "default labs",
+        "A game collective",
+        [
+            { url: "https://www.defaultlabs.net/", text: "Website", type: "redirect"},
+        ],
+        "/img/default-labs.png",
+        `
+        <span class="page-header">About</span>
+        <span class="page-body">
+            I'm half of the game collective 'default labs'
+        </span>
+
+        <span class="page-header">Development</span>
+        <span class="page-body">
+            Some info about this
+        </span>
+        `
+    );
+</script>
+
+</html>
