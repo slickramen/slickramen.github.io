@@ -54,7 +54,8 @@ const projects = [
         links: [
             { url: "https://github.com/slickramen", text: "Github Repository", type: "github"},
             { url: "/projects/page-hatch", text: "More Info" }
-        ]
+        ],
+        skillChips: "java, springboot"
     },
     {
         name: "GAMEDIR",
@@ -64,7 +65,8 @@ const projects = [
         links: [
             { url: "https://github.com/slickramen/gamedir", text: "Github Repository", type: "github"},
             { url: "/projects/page-gamedir", text: "More Info" }
-        ]
+        ],
+        skillChips: "react"
     },
     {
         name: "RIP Routing Implementation",
@@ -74,7 +76,8 @@ const projects = [
         links: [
             { url: "https://github.com/maxwmoir/rip-project", text: "Github Repository", type: "github"},
             { url: "/not-found", text: "More Info" }
-        ]
+        ],
+        skillChips: "python"
     },
     {
         name: "Gromit",
@@ -84,7 +87,8 @@ const projects = [
         links: [
             { url: "https://github.com/slickramen/gromit-react", text: "Github Repository", type: "github"},
             { url: "/projects/page-gromit", text: "More Info" }
-        ]
+        ],
+        skillChips: "react, express.js"
     },
     {
         name: "Git Contribution Graph",
@@ -94,7 +98,8 @@ const projects = [
         links: [
             { url: "https://github.com/slickramen/git-contribution-graph", text: "Github Repository", type: "github"},
             { url: "/projects/page-gitcontribution", text: "More Info" }
-        ]
+        ],
+        skillChips: "javascript"
     },
     // {
     //     name: "Sugoi",
@@ -116,7 +121,8 @@ const projects = [
             // { url: "https://itch.io", text: "Presskit", type: "redirect" },
             // { url: "/not-found", text: "Publisher Demo", type: "redirect" },
             { url: "/projects/page-grape", text: "More Info" }
-        ]
+        ],
+        skillChips: "java, javafx"
     },
     {
         name: "Alchemess",
@@ -126,7 +132,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/alchemess", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-alchemess", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     { divider: true, divider_id: "tab2023", name: "2023 Works" },
     {
@@ -137,7 +144,8 @@ const projects = [
         links: [
             // { url: "https://itch.io", text: "Link to itch.io" },
             { url: "/not-found", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name:       "Roguebots",
@@ -147,7 +155,8 @@ const projects = [
         links: [
             // { url: "https://itch.io", text: "Link to itch.io" },
             { url: "/not-found", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     { divider: true, divider_id: "tab2022", name: "2022 Works" },
     {
@@ -158,7 +167,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/peters-quest", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-peters-quest", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     { divider: true, divider_id: "tab2021", name: "2021 Works" },
     {
@@ -169,7 +179,8 @@ const projects = [
         links: [
             { url: "https://stepford.itch.io/ultra-force-obliteration", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-ufo", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name: "Untitled Ninja Game",
@@ -178,7 +189,8 @@ const projects = [
         image: "ninja.png",
         links: [
             { url: "/projects/page-ninja", text: "More Info" }
-        ]
+        ],
+        skillChips: "python / pygame"
     },
     {
         name: "Claret",
@@ -188,7 +200,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/claret", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-claret", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name: "Sunnyside vs. The Eggies",
@@ -198,7 +211,8 @@ const projects = [
         links: [
             { url: "https://stepford.itch.io/sunnyside", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-sunnyside", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name: "Cable Boy",
@@ -208,7 +222,8 @@ const projects = [
         links: [
             { url: "https://stepford.itch.io/cable-boy", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-cableboy", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name: "Musculus",
@@ -218,7 +233,8 @@ const projects = [
         links: [
             { url: "https://stepford.itch.io/musculus", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-musculus", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     { divider: true, divider_id: "tab2020", name: "pre. 2020 Works" },
     {
@@ -229,7 +245,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/ceptor", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-ceptor", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     // {
     //     name: "Acumen",
@@ -259,7 +276,8 @@ const projects = [
         links: [
             { url: "https://stepford.itch.io/rogue-road", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-rogueroad", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     // {
     //     name: "Paper Fort",
@@ -279,7 +297,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/terrene", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-terrene", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     // {
     //     name: "RED SPACE",
@@ -299,7 +318,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/gungun", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-gungun", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name: "DEVASTATION NATION",
@@ -309,7 +329,8 @@ const projects = [
         links: [
             { url: "https://stepford.itch.io/devastation-nation", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-devastationnation", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     // {
     //     name: "100 Bullets",
@@ -329,7 +350,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/realms-of-requiem", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-ror", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name: "BLAMM",
@@ -339,7 +361,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/blamm", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-blamm", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     },
     {
         name: "Blazin' Aces",
@@ -349,7 +372,8 @@ const projects = [
         links: [
             { url: "https://slickramen.itch.io/blazin-aces-game", text: "Link to itch.io", type: "itchio" },
             { url: "/projects/page-blazinaces", text: "More Info" }
-        ]
+        ],
+        skillChips: "gamemaker"
     }
 ];
 

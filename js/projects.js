@@ -24,8 +24,11 @@ function loadProjects(projects) {
                 .map(link => `<li class="link"><i class="icon-${link.type ?? 'link'} use-line-height"></i><a href="${link.url}">${link.text}</a></li>`)
                 .join(""); // Convert array to a string
 
+            const skillChips = (project.skillChips ? `<div class="project-skill-chips"> - ${project.skillChips}</div>` : "")
+
             newProject.innerHTML = `
-                <span class="page-date">${project.year ?? ""}</span>
+                <span class="page-date">${project.year ?? ""}${skillChips}</span>
+
                 <div class="info">
                     <h2 class="title">${project.name ?? ""}</h2>
                     <sub class="subtitle">${project.subtitle ?? ""}</sub>

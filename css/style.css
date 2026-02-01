@@ -256,6 +256,8 @@ ul {
     transition: opacity 0.2s ease;
     display: flex;
     flex-flow: column;
+
+    padding: 0 1rem
 }
 
 .info.always-on {
@@ -363,6 +365,22 @@ sub {
 .link-list {
     margin-top: 8px;
 }
+
+.skill-chip {
+    font-size: 0.8rem;
+    width: fit-content;
+    padding: 0.1rem 0.25rem;
+}
+
+.project-skill-chips {
+    display: none;
+}
+
+.page.selected .project-skill-chips { 
+    display: inline;
+}
+
+
 
 @media screen and (max-width: 800px) {
     body {
