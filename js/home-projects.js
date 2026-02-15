@@ -66,7 +66,7 @@ const projects = [
             { url: "https://github.com/slickramen/gamedir", text: "Github Repository", type: "github"},
             { url: "/projects/page-gamedir", text: "More Info" }
         ],
-        skillChips: "react"
+        skillChips: "react, express"
     },
     {
         name: "RIP Routing Implementation",

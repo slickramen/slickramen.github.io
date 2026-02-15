@@ -5,7 +5,17 @@
     /* Dark mode */
     --bg-color: #fff;
     --outline-color: #ccc;
+    --dim-color: #f5f5f5;
     --text-color: #000;
+
+    --color-easy: #46c6c2;
+    --color-easy-dim: #46c6c26b;
+
+    --color-medium: #fac31d;
+    --color-medium-dim: #fac31d6b;
+
+    --color-hard: #f8615c;
+    --color-hard-dim: #f8615c6b;
 
     --atlassian-blue: #2668ca;
 }
@@ -15,7 +25,17 @@
         /* Dark mode */
         --bg-color: #1c1c1c;
         --outline-color: #505050;
+        --dim-color: #303030;
         --text-color: #c5c5c5;
+
+        --color-easy: #46c6c2;
+        --color-easy-dim: #46c6c26b;
+
+        --color-medium: #fac31d;
+        --color-medium-dim: #fac31d6b;
+
+        --color-hard: #f8615c;
+        --color-hard-dim: #f8615c6b;
 
         --atlassian-blue: #5b6db5;
     }
@@ -30,7 +50,57 @@
 html {
     height: 100%;
     scroll-behavior: smooth;
+    position: relative;
 }
+
+html::after {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    content: '';
+    background-color: var(--bg-color);
+    animation: fade-in 1s;
+    opacity: 0;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-color);
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--outline-color) 50%, rgba(255, 255, 255, 0));
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--outline-color);
+}
+
 
 * {
     font-family: "Inter", Arial, sans-serif;
@@ -256,8 +326,6 @@ ul {
     transition: opacity 0.2s ease;
     display: flex;
     flex-flow: column;
-
-    padding: 0 1rem
 }
 
 .info.always-on {
@@ -323,6 +391,10 @@ sub {
     padding: 2px 10px;
 }
 
+.project-skill-chips {
+    opacity: 0.66;
+}
+
 .page {
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -365,22 +437,6 @@ sub {
 .link-list {
     margin-top: 8px;
 }
-
-.skill-chip {
-    font-size: 0.8rem;
-    width: fit-content;
-    padding: 0.1rem 0.25rem;
-}
-
-.project-skill-chips {
-    display: none;
-}
-
-.page.selected .project-skill-chips { 
-    display: inline;
-}
-
-
 
 @media screen and (max-width: 800px) {
     body {
