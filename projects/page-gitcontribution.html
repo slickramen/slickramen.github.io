@@ -1,37 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>project | martyn</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="/css/project-page.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project | martyn</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/project-page.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+		<script src="/js/generate-project-page.js"></script>
+		<script src="/js/hamburger.js"></script>
+	</head>
 
-    <script src="/js/generate-project-page.js"></script>
-    <script src="/js/hamburger.js"></script>
-</head>
+	<body>
+		<header id="navbar"></header>
+		<script src="/js/generate-navbar.js" defer></script>
 
-<body>
-    <header id="navbar"></header> 
-    <script src="/js/generate-navbar.js" defer></script>
-    
-    <div class="page-content" id="content-holder"></div>
+		<div class="page-content" id="content-holder"></div>
 
-    <footer id="footer"></footer>
-</body>
+		<footer id="footer"></footer>
+	</body>
 
-<script>
-    generateProjectPageLayout(
-        "Git Contribution Graph",
-        "A simple web element to display your git contribution graph",
-        [
-            { url: "https://github.com/slickramen/git-contribution-graph", text: "Github Repository", type: "github"},
-        ],
-        "/img/gitcontribution.png",
-        `
+	<script>
+		generateProjectPageLayout(
+			"Git Contribution Graph",
+			"A simple web element to display your git contribution graph",
+			[
+				{
+					url: "https://github.com/slickramen/git-contribution-graph",
+					text: "GitHub Repository",
+					type: "github",
+				},
+			],
+			"/img/gitcontribution.png",
+			`
         <span class="page-header">Development</span>
         <span class="page-body">
             I wanted to create a simple git-style contribution graph that I could use in future projects.
@@ -41,8 +44,7 @@
             easy to replace with real data in the future. The graph is created using simple HTML and CSS, and is populated
             with random data using JavaScript.
         </span>
-        `
-    );
-</script>
-
+        `,
+		);
+	</script>
 </html>
