@@ -8,34 +8,16 @@ const projects = [
 		name: "Current Projects",
 		subtitle: "Completed or Working on",
 	},
-
 	{
-		name: "Learning: Rust",
-		subtitle: "GitHub Repository",
-		year: "2026",
-		image: "rust.png",
+		name: "Bloodshot",
+		subtitle: "Game, Windows",
+		year: "tbc",
+		image: "bloodshot2.png",
 		links: [
-			{
-				url: "https://github.com/slickramen/rust",
-				text: "GitHub Repository",
-				type: "github",
-			},
+			// { url: "https://itch.io", text: "Presskit", type: "redirect"},
+			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
+			{ url: "/not-found", text: "More Info" },
 		],
-		skillChips: "rust, wasm",
-	},
-	{
-		name: "Learning: C#",
-		subtitle: "GitHub Repository",
-		year: "2026",
-		image: "csharp.png",
-		links: [
-			{
-				url: "https://github.com/slickramen/csharp",
-				text: "GitHub Repository",
-				type: "github",
-			},
-		],
-		skillChips: "csharp, react",
 	},
 	{
 		name: "default labs",
@@ -52,15 +34,32 @@ const projects = [
 		],
 	},
 	{
-		name: "Bloodshot",
-		subtitle: "Game, Windows",
-		year: "tbc",
-		image: "bloodshot2.png",
+		name: "Learning: C#",
+		subtitle: "GitHub Repository",
+		year: "2026",
+		image: "csharp.png",
 		links: [
-			// { url: "https://itch.io", text: "Presskit", type: "redirect"},
-			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
-			{ url: "/not-found", text: "More Info" },
+			{
+				url: "https://github.com/slickramen/csharp",
+				text: "GitHub Repository",
+				type: "github",
+			},
 		],
+		skillChips: "csharp, react",
+	},
+	{
+		name: "Learning: Rust",
+		subtitle: "GitHub Repository",
+		year: "2026",
+		image: "rust.png",
+		links: [
+			{
+				url: "https://github.com/slickramen/rust",
+				text: "GitHub Repository",
+				type: "github",
+			},
+		],
+		skillChips: "rust, wasm",
 	},
 	{ divider: true, divider_id: "tab2025", name: "2025 Works", subtitle: "" },
 	// {
