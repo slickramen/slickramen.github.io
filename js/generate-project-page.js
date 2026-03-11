@@ -1,22 +1,31 @@
 /**
  * Helper function to generate a page layout.
- * 
+ *
  * @param {*} title page title
  * @param {*} subtitle page subtitle
  * @param {*} listOfLinks page links list
  * @param {*} image page cover image
  * @param {*} content page content as HTML
  */
-function generateProjectPageLayout(title, subtitle, listOfLinks, image, content) {
-    const holder = document.getElementById("content-holder");
-    const container = document.createElement("div");
-    container.classList = "col";
+function generateProjectPageLayout(
+	title,
+	subtitle,
+	listOfLinks,
+	image,
+	content,
+) {
+	const holder = document.getElementById("content-holder");
+	const container = document.createElement("div");
+	container.classList = "col";
 
-    const links = (listOfLinks ?? [])
-    .map(link => `<li class="link"><i class="icon-${link.type ?? 'link'} use-line-height"></i><a href="${link.url}">${link.text}</a></li>`)
-    .join("");
+	const links = (listOfLinks ?? [])
+		.map(
+			(link) =>
+				`<li class="link"><i class="icon-${link.type ?? "link"} use-line-height"></i><a href="${link.url}" target="_blank">${link.text}</a></li>`,
+		)
+		.join("");
 
-    container.innerHTML = `
+	container.innerHTML = `
     <img class="project-cover" src="${image ?? ""}" loading="lazy">
 
     <span class="page-title">${title}</span>
@@ -29,5 +38,5 @@ function generateProjectPageLayout(title, subtitle, listOfLinks, image, content)
 
     ${content}`;
 
-    holder.appendChild(container);
+	holder.appendChild(container);
 }
