@@ -1,39 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>project | martyn</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="/css/project-page.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project | martyn</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/project-page.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+		<script src="/js/generate-project-page.js"></script>
+		<script src="/js/hamburger.js"></script>
+	</head>
 
-    <script src="/js/generate-project-page.js"></script>
-    <script src="/js/hamburger.js"></script>
-</head>
+	<body>
+		<header id="navbar"></header>
+		<script src="/js/generate-navbar.js" defer></script>
 
-<body>
-    <header id="navbar"></header> 
-    <script src="/js/generate-navbar.js" defer></script>
-    
-    <div class="page-content" id="content-holder"></div>
+		<div class="page-content" id="content-holder"></div>
 
-    <script src="/js/resize-game-iframe.js" defer></script>
+		<script src="/js/resize-game-iframe.js" defer></script>
 
-    <footer id="footer"></footer>
-</body>
+		<footer id="footer"></footer>
+	</body>
 
-<script>
-    generateProjectPageLayout(
-        "Peter's Quest",
-        "An ant-infested dungeon-crawling roguelike adventure",
-        [
-            { url: "https://slickramen.itch.io/peters-quest", text: "Link to itch.io", type:"itchio"}
-        ],
-        "/img/petersquest.png",
-        `
+	<script>
+		generateProjectPageLayout(
+			"Peter's Quest",
+			"An ant-infested dungeon-crawling roguelike adventure",
+			[
+				{
+					url: "https://slickramen.itch.io/peters-quest",
+					text: "Link to itch.io",
+					type: "itchio",
+				},
+			],
+			"/img/petersquest.png",
+			`
         <div id="game-holder" data-width="1280" data-height="720">
             <iframe 
                 src="../game/petersquest/index.html" 
@@ -57,7 +60,7 @@
             so I put some more effort into polishing it up and released it the next year. I was really into turnbased roguelike RPGs (namely Darkest Dungeon) at the time and wanted to make something similar.
             The game was extremely well received and was featured on the "Legendary Games" section of Newgrounds for a while.
             <br><br>
-            As with all of my projects, I really tried to push myself to create something I could be 100% proud of. I put a lot of time and effort into the art, animation and gameplay design / systems to ensure
+            As with all of my projects, I really tried to push myself to create something I could be 100% proud of. I put a lot of time and effort into the art, animation and gameplay design/systems to ensure
             everything worked together seamlessly. Due to the positive receiption of the game, I have started working on a sequel.
         </span>
 
@@ -74,8 +77,7 @@
                 <img class="project-image" src="/img/petersquest.png" loading="lazy">
             </div>
         </div>
-        `
-    );
-</script>
-
+        `,
+		);
+	</script>
 </html>

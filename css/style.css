@@ -412,10 +412,13 @@ sub {
 	background-color: var(--bg-color);
 	border: 1px solid var(--outline-color);
 	padding: 2px 10px;
+
+	font-family: monospace;
 }
 
 .project-skill-chips {
 	opacity: 0.66;
+	font-family: monospace;
 }
 
 .page {

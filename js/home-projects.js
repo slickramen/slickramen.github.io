@@ -20,6 +20,36 @@ const projects = [
 		],
 	},
 	{
+		name: "NLP Sprint Backlog Processing",
+		subtitle: "Program, Python",
+		year: "2026",
+		image: "pta.png",
+		links: [
+			{
+				url: "https://github.com/slickramen/manifold",
+				text: "GitHub Repository",
+				type: "github",
+			},
+			{ url: "/not-found", text: "More Info" },
+		],
+		skillChips: "python, nltk",
+	},
+	{
+		name: "Manifold",
+		subtitle: "Program, Python",
+		year: "2026",
+		image: "pta.png",
+		links: [
+			{
+				url: "https://github.com/slickramen/manifold",
+				text: "GitHub Repository",
+				type: "github",
+			},
+			{ url: "/not-found", text: "More Info" },
+		],
+		skillChips: "python, opencv",
+	},
+	{
 		name: "SL-Identicon",
 		subtitle: "Program, Python",
 		year: "2026",
@@ -32,7 +62,22 @@ const projects = [
 			},
 			{ url: "/not-found", text: "More Info" },
 		],
-		skillChips: "python",
+		skillChips: "python, pillow",
+	},
+	{
+		name: "Rust Noise Widget",
+		subtitle: "Program, Rust",
+		year: "2026",
+		image: "pta.png",
+		links: [
+			{
+				url: "https://github.com/slickramen/noise-widget",
+				text: "GitHub Repository",
+				type: "github",
+			},
+			{ url: "/not-found", text: "More Info" },
+		],
+		skillChips: "rust, typescript",
 	},
 	{
 		name: "default labs",
@@ -47,34 +92,6 @@ const projects = [
 			},
 			{ url: "/not-found", text: "More Info" },
 		],
-	},
-	{
-		name: "Learning: C#",
-		subtitle: "GitHub Repository",
-		year: "2026",
-		image: "csharp.png",
-		links: [
-			{
-				url: "https://github.com/slickramen/csharp",
-				text: "GitHub Repository",
-				type: "github",
-			},
-		],
-		skillChips: "csharp, react",
-	},
-	{
-		name: "Learning: Rust",
-		subtitle: "GitHub Repository",
-		year: "2026",
-		image: "rust.png",
-		links: [
-			{
-				url: "https://github.com/slickramen/rust",
-				text: "GitHub Repository",
-				type: "github",
-			},
-		],
-		skillChips: "rust, wasm",
 	},
 	{ divider: true, divider_id: "tab2025", name: "2025 Works", subtitle: "" },
 	// {
