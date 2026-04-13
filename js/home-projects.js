@@ -26,7 +26,7 @@ const projects = [
 		image: "pta.png",
 		links: [
 			{
-				url: "https://github.com/slickramen/manifold",
+				url: "https://github.com/slickramen/nltk-backlog-processing",
 				text: "GitHub Repository",
 				type: "github",
 			},
