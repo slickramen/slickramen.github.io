@@ -349,14 +349,17 @@ ul {
 	transition: opacity 0.2s ease;
 	display: flex;
 	flex-flow: column;
+	pointer-events: none;
 }
 
 .info.always-on {
 	opacity: 1;
+	pointer-events: all;
 }
 
 .page.selected .info {
 	opacity: 1;
+	pointer-events: all;
 }
 
 .page.filter-pane {

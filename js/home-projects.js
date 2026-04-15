@@ -53,7 +53,7 @@ const projects = [
 		name: "Manifold",
 		subtitle: "Program, Python",
 		year: "2026",
-		image: "pta.png",
+		image: "manifold.png",
 		links: [
 			{
 				url: "https://github.com/slickramen/manifold",
@@ -83,14 +83,13 @@ const projects = [
 		name: "Rust Noise Widget",
 		subtitle: "Program, Rust",
 		year: "2026",
-		image: "pta.png",
+		image: "noise.png",
 		links: [
 			{
 				url: "https://github.com/slickramen/noise-widget",
 				text: "GitHub Repository",
 				type: "github",
 			},
-			{ url: "/not-found", text: "More Info" },
 		],
 		skillChips: "rust, typescript",
 	},
@@ -137,7 +136,7 @@ const projects = [
 		image: "hatch.png",
 		links: [
 			{
-				url: "https://github.com/slickramen",
+				url: "https://github.com/slickramen/home-helper-mirror",
 				text: "GitHub Repository",
 				type: "github",
 			},
@@ -146,7 +145,7 @@ const projects = [
 		skillChips: "java, springboot",
 	},
 	{
-		name: "GAMEDIR",
+		name: "Gamedir",
 		subtitle: "Application, Web",
 		year: "2025",
 		image: "gamedir.png",
@@ -164,16 +163,15 @@ const projects = [
 		name: "RIP Routing Implementation",
 		subtitle: "Program, Python",
 		year: "2025",
-		image: "pta.png",
+		image: "rip.png",
 		links: [
 			{
 				url: "https://github.com/maxwmoir/rip-project",
 				text: "GitHub Repository",
 				type: "github",
 			},
-			{ url: "/not-found", text: "More Info" },
 		],
-		skillChips: "python",
+		skillChips: "python, routing",
 	},
 	{
 		name: "Gromit",
