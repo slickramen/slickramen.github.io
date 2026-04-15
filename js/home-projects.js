@@ -353,7 +353,7 @@ const projects = [
 		name: "Musculus",
 		subtitle: "Game, Windows",
 		year: "2021",
-		image: "musculus.png",
+		image: "musculus2.png",
 		links: [
 			{
 				url: "https://stepford.itch.io/musculus",
