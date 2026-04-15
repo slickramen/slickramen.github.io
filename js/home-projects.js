@@ -53,7 +53,7 @@ const projects = [
 		name: "SL-Identicon",
 		subtitle: "Program, Python",
 		year: "2026",
-		image: "pta.png",
+		image: "identicons.png",
 		links: [
 			{
 				url: "https://github.com/slickramen/sl-identicon",
