@@ -20,6 +20,21 @@ const projects = [
 		],
 	},
 	{
+		name: "GM-Input",
+		subtitle: "Extension, GameMaker",
+		year: "2026",
+		image: "pta.png",
+		links: [
+			{
+				url: "https://github.com/slickramen/gm-input",
+				text: "GitHub Repository",
+				type: "github",
+			},
+			{ url: "/not-found", text: "More Info" },
+		],
+		skillChips: "gamemaker, input",
+	},
+	{
 		name: "NLP Sprint Backlog Processing",
 		subtitle: "Program, Python",
 		year: "2026",
