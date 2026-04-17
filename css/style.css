@@ -354,7 +354,7 @@ ul {
 
 .info.always-on {
 	opacity: 1;
-	pointer-events: all;
+	pointer-events: none;
 }
 
 .page.selected .info {
