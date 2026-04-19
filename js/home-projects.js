@@ -23,7 +23,7 @@ const projects = [
 		name: "GM-Input",
 		subtitle: "Extension, GameMaker",
 		year: "2026",
-		image: "pta.png",
+		image: "gml.png",
 		links: [
 			{
 				url: "https://github.com/slickramen/gm-input",
