@@ -20,6 +20,20 @@ const projects = [
 		],
 	},
 	{
+		name: "Peerboard",
+		subtitle: "Application, Web",
+		year: "2026",
+		image: "peerboard.png",
+		links: [
+			{
+				url: "https://github.com/slickramen/rust-peerboard",
+				text: "GitHub Repository",
+				type: "github",
+			},
+		],
+		skillChips: "rust, react",
+	},
+	{
 		name: "GM-Input",
 		subtitle: "Extension, GameMaker",
 		year: "2026",
