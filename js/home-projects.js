@@ -20,6 +20,25 @@ const projects = [
 		],
 	},
 	{
+		name: "Kibi",
+		subtitle: "Application, Web",
+		year: "2026",
+		image: "kibi2.png",
+		links: [
+			{
+				url: "https://www.kibi.page/",
+				text: "Website",
+				type: "redirect",
+			},
+			{
+				url: "https://github.com/dwyaneramos/saasathon",
+				text: "GitHub Repository",
+				type: "github",
+			},
+		],
+		skillChips: "express, react",
+	},
+	{
 		name: "Peerboard",
 		subtitle: "Application, Web",
 		year: "2026",
