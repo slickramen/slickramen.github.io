@@ -641,3 +641,36 @@ sub {
 #footer-links {
 	display: none;
 }
+
+.ribbon-wrapper {
+	position: absolute;
+	top: -4px;
+	right: -4px;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.project-ribbon {
+	position: absolute;
+	top: 12px;
+	left: 0px;
+
+	width: 80px;
+	background-color: var(--atlassian-blue);
+	color: white;
+	font-size: min(10px, calc(80px / var(--chars)));
+	padding: 2px;
+
+	transform: rotate(45deg);
+	transform-origin: center;
+
+	font-family: monospace;
+	text-align: center;
+	text-transform: lowercase;
+	z-index: 20;
+}
+
+.page.page:not(.selected) .ribbon-wrapper {
+	opacity: 80%;
+}

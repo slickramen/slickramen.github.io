@@ -33,6 +33,15 @@ function loadProjects(projects) {
 
 			newProject.innerHTML = `
                 <span class="page-date">${project.year ?? ""}${skillChips}</span>
+                ${
+					project.ribbon
+						? `
+                <div class="ribbon-wrapper">
+                    <div class="project-ribbon" style="--chars: ${project.ribbon.length};">${project.ribbon}</div>
+                </div>
+                `
+						: ""
+				}
 
                 <div class="info">
                     <h2 class="title">${project.name ?? ""}</h2>

@@ -16,7 +16,7 @@ function generateProjectPageLayout(
 ) {
 	const holder = document.getElementById("content-holder");
 	const container = document.createElement("div");
-	container.classList = "col";
+	contaiqner.classList = "col";
 
 	const links = (listOfLinks ?? [])
 		.map(

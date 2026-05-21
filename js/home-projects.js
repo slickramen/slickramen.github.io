@@ -36,6 +36,7 @@ const projects = [
 				type: "github",
 			},
 		],
+		ribbon: "SaaSathon",
 		skillChips: "express, react",
 	},
 	{
@@ -50,6 +51,7 @@ const projects = [
 				type: "github",
 			},
 		],
+		ribbon: "uni",
 		skillChips: "rust, react",
 	},
 	{
@@ -80,6 +82,7 @@ const projects = [
 			},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "uni",
 		skillChips: "python, nltk",
 	},
 	{
@@ -95,6 +98,7 @@ const projects = [
 			},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "uni",
 		skillChips: "python, opencv",
 	},
 	{
@@ -124,6 +128,7 @@ const projects = [
 				type: "github",
 			},
 		],
+		ribbon: "uni",
 		skillChips: "rust, typescript",
 	},
 	{
@@ -175,6 +180,7 @@ const projects = [
 			},
 			{ url: "/projects/page-hatch", text: "More Info" },
 		],
+		ribbon: "uni",
 		skillChips: "java, springboot",
 	},
 	{
@@ -190,6 +196,7 @@ const projects = [
 			},
 			{ url: "/projects/page-gamedir", text: "More Info" },
 		],
+		ribbon: "uni",
 		skillChips: "react, express",
 	},
 	{
@@ -204,6 +211,7 @@ const projects = [
 				type: "github",
 			},
 		],
+		ribbon: "uni",
 		skillChips: "python, routing",
 	},
 	{
@@ -257,6 +265,7 @@ const projects = [
 			// { url: "/not-found", text: "Publisher Demo", type: "redirect" },
 			{ url: "/projects/page-grape", text: "More Info" },
 		],
+		ribbon: "uni",
 		skillChips: "java, javafx",
 	},
 	{
@@ -511,6 +520,7 @@ const projects = [
 			},
 			{ url: "/projects/page-devastationnation", text: "More Info" },
 		],
+		ribbon: "jam winner",
 		skillChips: "gamemaker",
 	},
 	// {
