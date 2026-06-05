@@ -336,6 +336,7 @@ const projects = [
 			},
 			{ url: "/projects/page-ufo", text: "More Info" },
 		],
+		ribbon: "opera jam",
 		skillChips: "gamemaker",
 	},
 	{
@@ -389,6 +390,7 @@ const projects = [
 			},
 			{ url: "/projects/page-cableboy", text: "More Info" },
 		],
+		ribbon: "gmtk jam",
 		skillChips: "gamemaker",
 	},
 	{
