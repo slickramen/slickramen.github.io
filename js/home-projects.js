@@ -20,6 +20,21 @@ const projects = [
 		],
 	},
 	{
+		name: "Highroll",
+		subtitle: "Application, Web",
+		year: "2026",
+		image: "highroll.png",
+		links: [
+			{
+				url: "https://www.highroll.club/",
+				text: "Website",
+				type: "redirect",
+			},
+		],
+		ribbon: "uni",
+		skillChips: "rust, react",
+	},
+	{
 		name: "Kibi",
 		subtitle: "Application, Web",
 		year: "2026",
