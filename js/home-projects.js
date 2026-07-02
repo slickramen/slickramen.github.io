@@ -30,6 +30,7 @@ const projects = [
 			{ url: "/not-found", text: "More Info" },
 		],
 		ribbon: "early access",
+		skillChips: "lead programmer",
 	},
 	{
 		name: "Highroll",
