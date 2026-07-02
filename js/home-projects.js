@@ -20,6 +20,18 @@ const projects = [
 		],
 	},
 	{
+		name: "Qarma Quad",
+		subtitle: "Game, Windows",
+		year: "2026",
+		image: "qarmaquad.png",
+		links: [
+			// { url: "https://itch.io", text: "Presskit", type: "redirect"},
+			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
+			{ url: "/not-found", text: "More Info" },
+		],
+		ribbon: "early access",
+	},
+	{
 		name: "Highroll",
 		subtitle: "Application, Web",
 		year: "2026",
