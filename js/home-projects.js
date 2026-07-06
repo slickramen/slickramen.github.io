@@ -27,7 +27,16 @@ const projects = [
 		links: [
 			// { url: "https://itch.io", text: "Presskit", type: "redirect"},
 			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
-			{ url: "/not-found", text: "More Info" },
+			{
+				url: "https://store.steampowered.com/app/4711500/Qarma_Quad/",
+				text: "Steam Page",
+				type: "redirect",
+			},
+			{
+				url: "https://www.newgrounds.com/portal/view/1040513",
+				text: "Web Demo",
+				type: "redirect",
+			},
 		],
 		ribbon: "early access",
 		skillChips: "lead programmer",
