@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="links">
             <a class="optional link-icon" href="https://github.com/slickramen"><i class="icon-github use-line-height"></i></a>
             <a class="optional link-icon" href="https://www.linkedin.com/in/martyn-gascoigne/"><i class="icon-linkedin use-line-height"></i></a>
-            <a class="optional link-icon" href="#"><i class="icon-email use-line-height"></i></a>
+            <a class="optional link-icon" href="mailto:martyngasc@gmail.com"><i class="icon-email use-line-height"></i></a>
             <span class="optional">|</span>
             ${links}
         </div>
