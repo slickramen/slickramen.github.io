@@ -18,6 +18,8 @@ const projects = [
 			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "default labs",
+		skillChips: "gamemaker",
 	},
 	{
 		name: "Qarma Quad",
@@ -181,6 +183,8 @@ const projects = [
 			},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "default labs",
+		skillChips: "half",
 	},
 	{ divider: true, divider_id: "tab2025", name: "2025 Works", subtitle: "" },
 	// {
@@ -203,6 +207,8 @@ const projects = [
 			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "default labs",
+		skillChips: "gamemaker",
 	},
 	{
 		name: "Hatch",
