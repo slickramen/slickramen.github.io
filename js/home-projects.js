@@ -22,6 +22,21 @@ const projects = [
 		skillChips: "gamemaker",
 	},
 	{
+		name: "Verdant",
+		subtitle: "Application, Web",
+		year: "2026",
+		image: "verdant.png",
+		links: [
+			{
+				url: "https://verdant.credit/",
+				text: "Website",
+				type: "redirect",
+			},
+		],
+		ribbon: "Web3 hackathon",
+		skillChips: "react, django, web3",
+	},
+	{
 		name: "Qarma Quad",
 		subtitle: "Game, Windows",
 		year: "2026",
