@@ -18,6 +18,23 @@ const projects = [
 			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "default labs",
+		skillChips: "gamemaker",
+	},
+	{
+		name: "Verdant",
+		subtitle: "Application, Web",
+		year: "2026",
+		image: "verdant.png",
+		links: [
+			{
+				url: "https://verdant.credit/",
+				text: "Website",
+				type: "redirect",
+			},
+		],
+		ribbon: "Web3 hackathon",
+		skillChips: "react, django, web3",
 	},
 	{
 		name: "Qarma Quad",
@@ -181,6 +198,8 @@ const projects = [
 			},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "default labs",
+		skillChips: "half",
 	},
 	{ divider: true, divider_id: "tab2025", name: "2025 Works", subtitle: "" },
 	// {
@@ -203,6 +222,8 @@ const projects = [
 			// { url: "/not-found", text: "Publisher Demo", type: "redirect"},
 			{ url: "/not-found", text: "More Info" },
 		],
+		ribbon: "default labs",
+		skillChips: "gamemaker",
 	},
 	{
 		name: "Hatch",
