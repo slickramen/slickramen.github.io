@@ -22,6 +22,21 @@ const projects = [
 		skillChips: "gamemaker",
 	},
 	{
+		name: "Terrain Renderer",
+		subtitle: "Application, Windows",
+		year: "2026",
+		image: "terrainrender.png",
+		links: [
+			{
+				url: "https://github.com/slickramen",
+				text: "GitHub Repository",
+				type: "github",
+			},
+		],
+		ribbon: "uni",
+		skillChips: "c++, opengl",
+	},
+	{
 		name: "Verdant",
 		subtitle: "Application, Web",
 		year: "2026",
