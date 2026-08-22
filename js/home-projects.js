@@ -36,21 +36,21 @@ const projects = [
 		ribbon: "uni",
 		skillChips: "c++, opengl",
 	},
-	{
-		name: "Verdant",
-		subtitle: "Application, Web",
-		year: "2026",
-		image: "verdant.png",
-		links: [
-			{
-				url: "https://verdant.credit/",
-				text: "Website",
-				type: "redirect",
-			},
-		],
-		ribbon: "Web3 hackathon",
-		skillChips: "react, django, web3",
-	},
+	// {
+	// 	name: "Verdant",
+	// 	subtitle: "Application, Web",
+	// 	year: "2026",
+	// 	image: "verdant.png",
+	// 	links: [
+	// 		{
+	// 			url: "https://verdant.credit/",
+	// 			text: "Website",
+	// 			type: "redirect",
+	// 		},
+	// 	],
+	// 	ribbon: "Web3 hackathon",
+	// 	skillChips: "react, django, web3",
+	// },
 	{
 		name: "Qarma Quad",
 		subtitle: "Game, Windows",
@@ -73,41 +73,41 @@ const projects = [
 		ribbon: "early access",
 		skillChips: "lead programmer",
 	},
-	{
-		name: "Highroll",
-		subtitle: "Application, Web",
-		year: "2026",
-		image: "highroll.png",
-		links: [
-			{
-				url: "https://www.highroll.club/",
-				text: "Website",
-				type: "redirect",
-			},
-		],
-		ribbon: "uni",
-		skillChips: "rust, react",
-	},
-	{
-		name: "Kibi",
-		subtitle: "Application, Web",
-		year: "2026",
-		image: "kibi2.png",
-		links: [
-			{
-				url: "https://www.kibi.page/",
-				text: "Website",
-				type: "redirect",
-			},
-			{
-				url: "https://github.com/dwyaneramos/saasathon",
-				text: "GitHub Repository",
-				type: "github",
-			},
-		],
-		ribbon: "SaaSathon",
-		skillChips: "express, react",
-	},
+	// {
+	// 	name: "Highroll",
+	// 	subtitle: "Application, Web",
+	// 	year: "2026",
+	// 	image: "highroll.png",
+	// 	links: [
+	// 		{
+	// 			url: "https://www.highroll.club/",
+	// 			text: "Website",
+	// 			type: "redirect",
+	// 		},
+	// 	],
+	// 	ribbon: "uni",
+	// 	skillChips: "rust, react",
+	// },
+	// {
+	// 	name: "Kibi",
+	// 	subtitle: "Application, Web",
+	// 	year: "2026",
+	// 	image: "kibi2.png",
+	// 	links: [
+	// 		{
+	// 			url: "https://www.kibi.page/",
+	// 			text: "Website",
+	// 			type: "redirect",
+	// 		},
+	// 		{
+	// 			url: "https://github.com/dwyaneramos/saasathon",
+	// 			text: "GitHub Repository",
+	// 			type: "github",
+	// 		},
+	// 	],
+	// 	ribbon: "SaaSathon",
+	// 	skillChips: "express, react",
+	// },
 	{
 		name: "Peerboard",
 		subtitle: "Application, Web",
