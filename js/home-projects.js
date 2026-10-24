@@ -627,7 +627,7 @@ const projects = [
 		name: "BLAMM",
 		subtitle: "Game, Windows",
 		year: "2018",
-		image: "blamm.png",
+		image: "blamm-new.png",
 		links: [
 			{
 				url: "https://slickramen.itch.io/blamm",
